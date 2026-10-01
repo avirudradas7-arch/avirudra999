@@ -1,0 +1,5 @@
+arr = (10, 25, 7, 45, 32)
+arr = list(arr)
+arr.sort()
+arr = tuple(arr)
+print("the largest number in the array is:", arr[-1])
